@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "space grotesk";
+    src: url("SpaceGrotesk (wght).woff2");format (woof2);
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+ background: rgb(139, 168, 135);
+ font-family:sans-serif;
+font-family: "Barlow", sans-serif;
+line-height: 1.5;  
+font-optical-sizing: auto;
+
+}
+
+h1{
+    margin: 0;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+p{
+    max-width: 600px;
+}
+
+/*header*/
+
+.header{
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a{
+    text-decoration: none;
+    color:currentColor;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.nav a{
+text-decoration: none;
+color:currentColor;
+background: rgba(255, 255, 255, 0.327);
+
+}
+
+.nav a span{
+    display: block;
+    padding: 12px;
+    
+}
+
+/* ****
+page projet
+***** */
+
+
+
+.projet {
+    background: rgb(146, 172, 108); 
+}
+
+.projet h1{
+    font-size: 50px;
+}
